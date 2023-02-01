@@ -1,8 +1,8 @@
-function onChevronClick() {
+const onChevronClick = () => {
   document.getElementById('first-section').scrollIntoView();
 }
 
-$( document ).ready(function() {
+window.addEventListener('DOMContentLoaded', () => {
   AOS.init({
     duration: 750,
     easing: 'ease-in-out-cubic',
